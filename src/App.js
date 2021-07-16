@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="app">
-      Testing
+      Christine's React Portfolio
     </div>
   );
 }
