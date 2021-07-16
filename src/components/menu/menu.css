@@ -1,3 +1,4 @@
+/* Style for drop down menu */
 .menu {
     width: 300px;
     height: 100vh;
@@ -10,8 +11,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 1s ease;
 }
 
+/* Hides drop menu */
 .active {
     right: 0;
+}
+
+/* Organize list in menu */
+ul {
+    
 }
