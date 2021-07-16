@@ -5,9 +5,13 @@ export default function Navbar() {
         <div className="navbar">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#works">Works</a>
+                    <a href="#works" className="logo">🌿 Hi there,</a>
+                    <div className="itemContainer">
+                    
+                    </div>
                 </div>
                 <div className="right"></div>
+
             </div>
         </div>
     )
