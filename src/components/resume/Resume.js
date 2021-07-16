@@ -1,6 +1,6 @@
-import "./works.scss"
+import "./resume.css"
 
-export default function Works() {
+export default function Resume() {
     return (
         <div>
             

@@ -1,6 +1,6 @@
-import "./main.scss"
+import "./works.css"
 
-export default function main() {
+export default function Works() {
     return (
         <div>
             
