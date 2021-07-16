@@ -24,8 +24,19 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 300;
     color: black;
+    width: 60%;
+}
+
+/* Style for hover and list */
+li {
+    margin-bottom: 25px;
+}
+
+li:hover {
+    font-weight: 500;
 }
 
 /* Taking the same style from ul */
