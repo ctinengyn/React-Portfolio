@@ -3,12 +3,9 @@ import "./navbar.css"
 export default function Navbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={"navbar " + (menuOpen && "active")}>
-            <div className="wrapper">
+            <div className="wrapper1">
                 <div className="left">
                     <a href="#main" className="logo">🌿</a>
-                    <div className="itemContainer">
-
-                    </div>
                 </div>
 
                 {/* Creating drop down menu page */}
