@@ -1,6 +1,8 @@
 .main {
     background-color: white;
     display: flex;
+    height: 100vh;
+    width: 100vw;
 }
 
 .left {
@@ -37,17 +39,17 @@
     justify-content: center;
 }
 
-h1 {
+.mainh1 {
     font-size: 60px;
     margin: 10px 0;
 }
 
-h2 {
+.mainh2 {
     font-size: 35px;
 }
 
 /* ityped styles */
-h3 {
+.mainh3 {
     font-size: 30px;
 }
 

@@ -20,7 +20,7 @@
 }
 
 /* Organize list in menu */
-ul {
+.menuul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -31,11 +31,11 @@ ul {
 }
 
 /* Style for hover and list */
-li {
+.menuli {
     margin-bottom: 25px;
 }
 
-li:hover {
+.menuli:hover {
     font-weight: 500;
 }
 

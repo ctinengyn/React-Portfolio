@@ -12,7 +12,7 @@ export default function Main() {
             showCursor: false, 
             backDelay: 1700,
             backSpeed: 70,
-            strings: ['Developer', 'Programmer', "Content Creater" ]
+            strings: ["Developer", "Programmer", "Content Creator"]
         });
     }, [])
 
@@ -22,19 +22,19 @@ export default function Main() {
             {/* Left side with photo */}
             <div className="left">
                 <div className="imgContainer">
-                    <img class="me" src="assets/Me.JPG" alt="Photo for main page"/>
+                    <img className="me" src="assets/Me.JPG" alt="Photo for main page"/>
                 </div>
             </div>
 
             {/* Right side with intro */}
             <div className="right1">
                 <div className="wrapper">
-                    <h2>Hi there, I'm</h2>
-                    <h1>Christine Nguyen</h1>
-                    <h3><div class="pro" ref={textRef}></div></h3>
+                    <h2 className="mainh2">Hi there, I'm</h2>
+                    <h1 className="mainh1">Christine Nguyen</h1>
+                    <h3 className="mainh3"><div ref={textRef}></div></h3>
                 </div>
                 <a href="#works">
-                    <div class="down" scr="assets/down.png" alt="Down arrow"/>
+                    <div className="down" scr="assets/down.png" alt="Down arrow"/>
                 </a>
             </div>
         </div>

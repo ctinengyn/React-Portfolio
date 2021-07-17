@@ -1,5 +1,6 @@
 .app {
     height: 100vh;
+    width: 100vw;
 }
 
 .sections {
@@ -9,4 +10,3 @@
     position: relative;
     top: 70px;
 }
-
