@@ -5,13 +5,13 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#works" className="logo">🌿 Hi there,</a>
+                    <a href="#main" className="logo">🌿</a>
                     <div className="itemContainer">
 
                     </div>
                 </div>
 
-                {/* Creating hamburger page */}
+                {/* Creating drop down menu page */}
                 <div className="right">
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
                         <span className="1"></span>

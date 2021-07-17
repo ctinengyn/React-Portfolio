@@ -8,16 +8,20 @@
     overflow: hidden;
 }
 
-/* .right {
+.right {
     flex: 0.5;
     overflow: hidden;
-} */
+}
 
 .imgContainer {
     width: 600px;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 img {
-    width: 80%;
+    width: 100%;
 }
