@@ -23,7 +23,7 @@
     border-radius: 50%;
 }
 
-img {
+.me {
     width: 70%;
 }
 
@@ -50,7 +50,13 @@ h3 {
     font-size: 30px;
 }
 
+.pro {
+    font-size: inherit;
+}
+
 .down {
     position: absolute;
     bottom: 10px;
+    width: 30px;
+    left: 40%;
 }

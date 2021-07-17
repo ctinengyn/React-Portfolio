@@ -1,13 +1,27 @@
 import "./main.css"
+import { init } from 'ityped'
+import { useEffect, useRef } from "react"
+
+// console.log(textRef)
 
 export default function Main() {
+
+    const textRef = useRef();
+
+    useEffect(() => {
+        init(textRef.current, { 
+            showCursor: false, 
+            strings: ['Developer', 'Programmer', "Content Creater" ]
+        });
+    }, [])
+
     return (
         <div className="main" id="main">
 
             {/* Left side with photo */}
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/Me.JPG" alt="Photo for main page"/>
+                    <img class="me" src="assets/Me.JPG" alt="Photo for main page"/>
                 </div>
             </div>
 
@@ -16,10 +30,10 @@ export default function Main() {
                 <div className="wrapper">
                     <h2>Hi there, I'm</h2>
                     <h1>Christine Nguyen</h1>
-                    <h3>Full-Stack Developer<span></span></h3>
+                    <h3>Developer <div class="pro" ref={textRef}></div></h3>
                 </div>
                 <a href="#works">
-                    <img class="down" scr="./images/down.png" alt="Down arrow"/>
+                    <div class="down" scr="assets/down.png" alt="Down arrow"/>
                 </a>
             </div>
         </div>
