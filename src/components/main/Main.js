@@ -1,6 +1,7 @@
 import "./main.css"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
+import Me from "../../assets/Me.JPG"
 
 export default function Main() {
 
@@ -22,7 +23,7 @@ export default function Main() {
             {/* Left side with photo */}
             <div className="left">
                 <div className="imgContainer">
-                    <img className="me" src="assets/Me.JPG" alt="Photo for main page"/>
+                    <img className="me" src={Me} alt="Photo for main page"/>
                 </div>
             </div>
 
