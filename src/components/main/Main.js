@@ -19,7 +19,7 @@ export default function Main() {
                     <h3>Full-Stack Developer<span></span></h3>
                 </div>
                 <a href="#works">
-                    <img id ="arrow" scr="assets/down.png" alt=""/>
+                    <img class="down" scr="./images/down.png" alt="Down arrow"/>
                 </a>
             </div>
         </div>
