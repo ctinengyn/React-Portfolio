@@ -1,5 +1,5 @@
 import "./works.css"
-import Fitness from "../../assets/fitness.png"
+import Fitness from "../../assets/fitness.JPG"
 
 export default function Works() {
     return (
@@ -14,8 +14,23 @@ export default function Works() {
             </ul>
             <div className="workcontainer">
                 <div className="workfit">
-                    <img scr={Fitness} alt="Workout Tracker Example"/>
-                    <h3>Fitness Tracker</h3>
+                    <img className="example1" src={Fitness} alt="Workout Tracker Example"/>
+                    <h3 className="workh3">Fitness Tracker</h3>
+
+                    <img className="example1" src={Fitness} alt="Workout Tracker Example"/>
+                    <h3 className="workh3">Fitness Tracker</h3>
+
+                    <img className="example1" src={Fitness} alt="Workout Tracker Example"/>
+                    <h3 className="workh3"> Fitness Tracker</h3>
+
+                    <img className="example1" src={Fitness} alt="Workout Tracker Example"/>
+                    <h3 className="workh3">Fitness Tracker</h3>
+
+                    <img className="example1" src={Fitness} alt="Workout Tracker Example"/>
+                    <h3 className="workh3">Fitness Tracker</h3>
+
+                    <img className="example1" src={Fitness} alt="Workout Tracker Example"/>
+                    <h3 className="workh3">Fitness Tracker</h3>
                 </div>
             </div>
         </div>

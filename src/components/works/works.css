@@ -12,6 +12,10 @@
     font-size: 50px;
 }
 
+.workh3 {
+    font-size: 20px;
+}
+
 .workul {
     margin: 10px;
     padding: 0;
@@ -29,9 +33,24 @@
     border-radius: 10px;
 }
 
+/* Work example images and font styles */
 .workcontainer {
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.example1 {
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
 }

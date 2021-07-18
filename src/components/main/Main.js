@@ -2,6 +2,7 @@ import "./main.css"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
 import Me from "../../assets/Me.JPG"
+import Arrow from "../../assets/arrow.png"
 
 export default function Main() {
 
@@ -35,7 +36,7 @@ export default function Main() {
                     <h3 className="mainh3"><div ref={textRef}></div></h3>
                 </div>
                 <a href="#works">
-                    <div className="down" scr="assets/down.png" alt="Down arrow"/>
+                    <div className="down" src={Arrow} alt="Down arrow"/>
                 </a>
             </div>
         </div>
