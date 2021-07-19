@@ -1,7 +1,7 @@
 .works {
     background-color: white;
     display: flex;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     flex-direction: column;
     align-items: center;
@@ -14,6 +14,7 @@
 
 .workh3 {
     font-size: 20px;
+    margin-left: 60px;
 }
 
 .workul {
