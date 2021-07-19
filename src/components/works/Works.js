@@ -11,7 +11,7 @@ export default function Works() {
     return (
 
         // Work/Project image examples with live links
-        <div className="works" id="worksid">
+        <div className="works">
             <h1 className="workh1">Portfolio</h1>
 
             <div className="workcontainer">
