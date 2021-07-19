@@ -55,4 +55,9 @@ button {
     font-weight: 500;
     border-radius: 10px;
     border: none;
+    outline: none;
+}
+
+p {
+    color: black;
 }
