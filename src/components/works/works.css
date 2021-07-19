@@ -23,17 +23,6 @@
     list-style: none;
     display: flex;
 }
-
-.workli {
-    font-size: 20px;
-    margin-right: 50px;
-    padding: 7px;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-}
-
 /* Work example images and font styles */
 .workcontainer {
     width: 70%;
