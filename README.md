@@ -27,6 +27,21 @@ A portfolio tells the story about a person, the character, and the journey to ov
 
 **Once again, portfolios are all about demonstrating your technical skills, and creativity as a developer.**
 
+## How To Use 
+
+From your command line, clone and run developerFolio:
+
+```bash
+# Clone this repository
+$ git clone git@github.com:ctinengyn/React-Portfolio.git
+
+# Install dependencies
+$ npm install
+
+#Start's development server
+$ npm start
+```
+
 The link below shows my portfolio:
 [Christine's Portfolio](https://github.com/ctinengyn/React-Portfolio)
 ![Main Page](./src/assets/mainpage.png)
