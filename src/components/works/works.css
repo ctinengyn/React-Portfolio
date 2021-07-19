@@ -53,4 +53,10 @@
     justify-content: center;
     color: white;
     position: relative;
+    transition: all .5s ease;
+}
+
+.example1:hover {
+    opacity: 0.2;
+    z-index: 0;
 }
